@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="12bool.css">
+    <link rel="stylesheet" href="style.css">
+    <title>12BOOL</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ESERCIZIO PER CASA</h1>
+        <div class="row">
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+            <div class="col-1">1COL</div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">2COL</div>
+            <div class="col-5">5COL</div>
+            <div class="col-5">5COL</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">12COL</div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">8COL</div>
+            <div class="col-2">2COL</div>
+            <div class="col-2">2COL</div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">1COL</div>
+            <div class="col-2">2COL</div>
+            <div class="col-2">2COL</div>
+            <div class="col-6">6COL</div>
+            <div class="col-1">1COL</div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-2">2COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-2">2COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-8">8COL-NESTED</div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-6">6COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-6">6COL-NESTED</div>
+                </div>
+            </div>
+
+            <div class="white-space"></div>
+
+<!-- section2 -->
+            <div class="row"></div><div class="col-12"></div>
+            <div class="row"></div><div class="col-2"></div> <div class="col-10"></div>
+            <div class="row"></div><div class="col-3"></div> <div class="col-9"></div>
+            <div class="row"></div><div class="col-4"></div> <div class="col-8"></div>
+            <div class="row"></div><div class="col-5"></div> <div class="col-7"></div>
+            <div class="row"></div><div class="col-6"></div> <div class="col-6"></div>
+
+            <div class="white-space"></div>
+            <!-- offset -->
+            <h1>OFFSET</h1>
+            <div class="row"></div><div class="col-offset-11 col-1"></div>
+            <div class="row"></div><div class="col-offset-10 col-2"></div>
+            <div class="row"></div><div class="col-offset-9 col-3"></div>
+            <div class="row"></div><div class="col-offset-8 col-4"></div>
+            <div class="row"></div><div class="col-offset-7 col-5"></div>
+            <div class="row"></div><div class="col-offset-6 col-6"></div>
+            <div class="row"></div><div class="col-offset-5 col-7"></div>
+            <div class="row"></div><div class="col-offset-4 col-8"></div>
+            <div class="row"></div><div class="col-offset-3 col-9"></div>
+            <div class="row"></div><div class="col-offset-2 col-10"></div>
+            <div class="row"></div><div class="col-offset-1 col-11"></div>
+
+            <div class="white-space"></div>
+
+<!-- nested -->
+            <h1>NESTED</h1>
+            <div class="col-8">
+                <div class="row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-3">3COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-6">6COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-3">3COL-NESTED</div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-6">6COL-NESTED</div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;"class="col-6">6COL-NESTED</div>
+                </div>
+            </div>
+            
+            <div class="white-space"></div>
+<!-- alignement -->
+            <h1>ALIGNEMENT</h1>
+            <div class="row"></div><div class="col-6">START</div>
+            <div class="row"></div><div class="col-6 col-offset-4">CENTER</div>
+            <div class="row"></div><div class="col-6 col-offset-6">END</div>
+
+            <div class="row top">
+                <div class="col-6 big"></div>
+                <div class="col-6 small">TOP</div>
+            </div>
+
+            <div class="row mid">
+                <div class="col-6 big"></div>
+                <div class="col-6 small center">MID</div>
+            </div>
+
+            <div class="row bot">
+                <div class="col-6 big"></div>
+                <div class="col-6 small end">BOT</div>
+            </div>
+            
+            <div class="white-space"></div>
+<!-- justify -->
+            <h1>JUSTIFY CONTENT</h1>
+            <h2>SPACE AROUND</h2>
+
+            <div class="row">
+                <div class="col-12 row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-offset-1 col-2"></div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-offset-2 col-2"></div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-offset-2 col-2"></div>
+                </div>
+
+            </div>
+            <h2>SPACE BETWEEN</h2>
+
+            <div class="row">
+                <div class="col-12 row">
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-2"></div>
+                    <div style="background-color: lightgreen;border: solid 1px blue;" class="col-2 col-offset-3"></div>
+                <div style="background-color: lightgreen;border: solid 1px blue;" class="col-2 col-offset-3"></div>
+            </div>
+
+    
+           
+    </div>
+    
+</body>
+</html>
